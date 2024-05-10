@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    public class Usuario
+    public class Usuario 
     {
 
     }
