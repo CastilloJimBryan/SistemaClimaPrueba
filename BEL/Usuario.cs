@@ -8,10 +8,10 @@ namespace BEL
 {
     public class Usuario 
     {
-        public int UsuarioID {  get; set; }
-        public string UsuarioNombre { get; set; }
-        public string UsuarioApellido { get; set; }
-        public string UsuarioPass {  get; set; }
+        public int UsuarioId {  get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string Pass {  get; set; }
         public int Rol_Id { get; set; }
     }
 }

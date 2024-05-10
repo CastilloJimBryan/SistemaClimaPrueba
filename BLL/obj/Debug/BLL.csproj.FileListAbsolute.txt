@@ -1,0 +1,11 @@
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\BLL.dll
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\BLL.pdb
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\BEL.dll
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\DAL.dll
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\Services.dll
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\BEL.pdb
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\obj\Debug\BLL.dll
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\obj\Debug\BLL.pdb
