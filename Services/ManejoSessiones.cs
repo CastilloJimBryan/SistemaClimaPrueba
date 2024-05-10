@@ -24,9 +24,6 @@ namespace Services
         {
             _sesion = null;
         }
-        public static bool IsLogged()
-        {
-            return Session!= null;
-        }
+
     }
 }

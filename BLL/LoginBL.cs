@@ -11,13 +11,8 @@ namespace BLL
 {
     public class LoginBL
     {
-        UsuarioDAL usuarioDAL;
-
-        public LoginBL()
-        {
-            usuarioDAL= new UsuarioDAL();
-        }
-
+        UsuarioDAL usuarioDAL= new UsuarioDAL();
+      
         public void Login(string text1,string text2)
         {
             if (String.IsNullOrEmpty(text1) || String.IsNullOrEmpty(text2)) throw new Exception("Campos Vacios!");

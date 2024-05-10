@@ -1,40 +1,32 @@
-﻿using Microsoft.AspNet.Identity;
-using Microsoft.Owin.Security;
+﻿using BLL;
+using Services;
 using System;
+using System.Collections.Generic;
+using System.Deployment.Internal;
+using System.Linq;
 using System.Web;
 using System.Web.UI;
-using SsitemaClima;
+using System.Web.UI.WebControls;
 
-public partial class Account_Login : Page
+public partial class Account_Login : System.Web.UI.Page
 {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            RegisterHyperLink.NavigateUrl = "Register";
-            OpenAuthLogin.ReturnUrl = Request.QueryString["ReturnUrl"];
-            var returnUrl = HttpUtility.UrlEncode(Request.QueryString["ReturnUrl"]);
-            if (!String.IsNullOrEmpty(returnUrl))
-            {
-                RegisterHyperLink.NavigateUrl += "?ReturnUrl=" + returnUrl;
-            }
-        }
+    protected void Page_Load(object sender, EventArgs e)
+    {
 
-        protected void LogIn(object sender, EventArgs e)
+    }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        try
         {
-            if (IsValid)
-            {
-                // Validate the user password
-                var manager = new UserManager();
-                ApplicationUser user = manager.Find(UserName.Text, Password.Text);
-                if (user != null)
-                {
-                    IdentityHelper.SignIn(manager, user, RememberMe.Checked);
-                    IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
-                }
-                else
-                {
-                    FailureText.Text = "Invalid username or password.";
-                    ErrorMessage.Visible = true;
-                }
-            }
-        }
+            LoginBL loginBL = new LoginBL();
+            loginBL.Login(TextBox1.Text, TextBox2.Text);
+            Session["User"] = ManejoSessiones.Session.Nombre;
+            Session["Rol"] = ManejoSessiones.Session.Rol_Id;
+
+          
+            Response.Redirect("Default.aspx");
+
+        }catch(Exception ex) { Label3.Text = ex.Message; TextBox1.Text = "";TextBox2.Text = ""; }
+    }
 }

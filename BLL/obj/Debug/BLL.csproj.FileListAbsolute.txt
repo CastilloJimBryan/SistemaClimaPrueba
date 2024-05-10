@@ -4,6 +4,8 @@ C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\BEL.d
 C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\DAL.dll
 C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\Services.dll
 C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\BEL.pdb
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\DAL.pdb
+C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\bin\Debug\Services.pdb
 C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\Navegador\Desktop\Sistema_Clima_Prueba\SsitemaClima\BLL\obj\Debug\BLL.csproj.CopyComplete
