@@ -16,12 +16,12 @@ namespace DAL
             u.Nombre = dr["Nombre"].ToString();
             u.Apellido = dr["Apellido"].ToString();
             u.Pass = dr["Pass"].ToString();
-            u.Rol_Id = int.Parse(dr["RolId"].ToString());
+            u.Rol = dr["Rol"].ToString();
         }
        
         public Usuario ObtenerNomYPass(string nom,string pass)
         {
-            string sql = "SELECT UsuarioId,Nombre,Apellido,Pass,Rol.RolId,Rol.Rol FROM Usuario " +
+            string sql = "SELECT UsuarioId,Nombre,Apellido,Pass,Rol FROM Usuario " +
                 " INNER JOIN Rol ON Rol.RolId= Usuario.Rol_Id " +
                 " WHERE Usuario.Nombre='" + nom + "' AND Pass='" + pass + "'";
             DAO dAO = new DAO();

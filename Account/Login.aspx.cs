@@ -22,10 +22,10 @@ public partial class Account_Login : System.Web.UI.Page
             LoginBL loginBL = new LoginBL();
             loginBL.Login(TextBox1.Text, TextBox2.Text);
             Session["User"] = ManejoSessiones.Session.Nombre;
-            Session["Rol"] = ManejoSessiones.Session.Rol_Id;
+            Session["Rol"] = ManejoSessiones.Session.Rol;
 
           
-            Response.Redirect("Default.aspx");
+            Response.Redirect("/Default.aspx");
 
         }catch(Exception ex) { Label3.Text = ex.Message; TextBox1.Text = "";TextBox2.Text = ""; }
     }

@@ -12,6 +12,6 @@ namespace BEL
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string Pass {  get; set; }
-        public int Rol_Id { get; set; }
+        public string Rol { get; set; }
     }
 }
